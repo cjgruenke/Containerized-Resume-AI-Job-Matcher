@@ -1,0 +1,30 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+env/
+venv/
+.env
+.env.*
+
+# Data & outputs
+stage1_jobs.json
+indeed_response_raw.json
+cleaned_jobs.json
+cleaned_jobs.csv
+jobs_embeddings.jsonl
+resume_embedding.json
+jobs_embeddings.npy
+top_jobs.json
+top_jobs.csv
+processed_resume.txt
+output/
+data/
+
+# OS
+.DS_Store
+Thumbs.db
