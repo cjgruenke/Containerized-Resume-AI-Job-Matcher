@@ -23,7 +23,9 @@ Project2/
 ├─ Diagrams/
 │   ├─ UML_ClassDiagram.png
 │   └─ SequenceDiagram.png
-│
+├─ .github/
+│   ├─ workflows/
+│       └─ tests.yml
 ├─ JobMatcher/
 │   ├─ __init__.py
 │   ├─ cli.py
@@ -123,6 +125,10 @@ pytest
 ### Run a specific test file
 ```powershell
 pytest tests\test_scraper.py
+```
+### Via GitHub Actions
+```
+Go to the Actions tab on your repository and run the tests to confirm
 ```
 
 ---
