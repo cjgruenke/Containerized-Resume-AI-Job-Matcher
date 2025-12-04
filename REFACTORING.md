@@ -1,4 +1,4 @@
-﻿# Refactoring Report — AI-Powered Job Matching Project (Project 2)
+﻿# Refactoring Report — Project 2
 
 ## Overview
 
