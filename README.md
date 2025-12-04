@@ -20,20 +20,31 @@ This project implements an **AI-powered job-matching system** that:
 ```
 Project2/
 │
-├── JobMatcher/
-│   ├── __init__.py
-│   ├── cli.py
-│   ├── scraper.py
-│   ├── cleaner.py
-│   ├── embeddings.py
-│   ├── similarity.py
-│   ├── pipeline.py
-│   ├── utils.py (if applicable)
-│   └── ...
+├─ Diagrams/
+│   ├─ UML_ClassDiagram.png
+│   └─ SequenceDiagram.png
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├─ JobMatcher/
+│   ├─ __init__.py
+│   ├─ cli.py
+│   ├─ cleaner.py
+│   ├─ embeddings.py
+│   ├─ pipeline.py
+│   ├─ scraper.py
+│   └─ similarity.py
+│
+├─ tests/
+│   ├─ test_embeddings_mock.py
+│   ├─ test_pipeline_integration.py
+│   └─ test_similarity.py
+│
+├─ README.md
+├─ REFACTORING.md
+├─ Cole_Gruenke_Resume.pdf
+├─ .gitignore
+├─ Dockerfile
+└─ requirements.txt
+
 ```
 
 ---
